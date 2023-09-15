@@ -1,0 +1,66 @@
+/* * {
+  border: 1px dashed red;
+  min-height: 10px;
+} */
+html {
+    background: #fcfcfc;
+    margin: auto;
+    
+}
+body {
+  width: 605px;
+  height: auto;
+  margin: auto;
+}
+.ig_post {
+  width: 600px;
+  border: 1px solid #8080803f;
+  border-radius: 5px;
+  background-color: #ebffeb;
+  padding: 0.5rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+header div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+svg {
+  font-size: 1.5rem;
+}
+.city1 {
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+}
+.region1 {
+  font-size: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+}
+img {
+  width: 37rem;
+}
+footer {
+  font-family: "Josefin Sans", sans-serif;
+  flex-direction: column;
+  position: relative;
+  text-align: justify;
+  padding: 5px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icoicons-left:hover {
+   
+    opacity: .5;
+}
